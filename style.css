@@ -1,0 +1,103 @@
+html {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.button {    
+    background-color: #94cfeb; 
+    border: 1px solid #008CBA;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background: #1E88E5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    white-space: nowrap;
+    padding: 0.5rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+}    
+.button1 {    
+    background-color: lightgrey;    
+    color: black;        
+}      
+.button1:hover {    
+    background-color: #008CBA;    
+    color: white;    
+}  
+
+h3.banner{
+    display: block; 
+    background-color: #379CDB; 
+    padding: .5em; 
+    margin: 0px;  
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 100; 
+    text-align: left;
+  }
+main {
+display: flex;
+justify-content: center;
+padding: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 0.5px solid #999;
+    padding: 0.5rem;
+    color: black;  
+  }
+  
+th {
+    background-color: #379CDB; 
+    color: white;  
+    border: 0.5px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 100; 
+
+  }
+
+caption {
+    background-color: #379CDB; 
+    color: white;  
+    border: 0.5px solid #999;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100; 
+
+  }
+
+  /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
