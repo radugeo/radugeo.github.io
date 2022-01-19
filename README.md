@@ -1,2 +1,2 @@
 # radugeo.github.io
-Public web
+Trying web development using W3.CSS framework.
